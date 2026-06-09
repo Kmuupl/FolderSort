@@ -1,4 +1,5 @@
 ﻿using System;
+using FolderSort.Core;
 
 class Program
 {

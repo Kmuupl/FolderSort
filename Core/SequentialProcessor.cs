@@ -2,6 +2,7 @@ using System;
 using System.IO;
 using System.Diagnostics;
 
+namespace FolderSort.Core;
 public static class SequentialProcessor
 {
     public static long Run(string folderPath)
