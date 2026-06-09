@@ -1,6 +1,8 @@
 using System;
 using System.IO;
 
+namespace FolderSort.Core;
+
 public static class FileGenerator
 {
     public static void GenerateAll()

@@ -1,7 +1,10 @@
+namespace FolderSort.Core;
+
 public static class BubbleSorter
 {
     public static void Sort(int[] array)
     {
+        if (array == null) throw new ArgumentNullException(nameof(array));
         int len = array.Length;
         for (int i = 1; i < len; i++)
         {

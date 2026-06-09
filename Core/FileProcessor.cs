@@ -1,5 +1,5 @@
 using System.IO;
-
+namespace FolderSort.Core;
 public static class FileProcessor
 {
     public static void ProcessFile(string filePath)
